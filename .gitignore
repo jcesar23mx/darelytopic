@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datos y salidas temporales
+*.xlsx
+*.csv
+!sample_data/*.csv
+!sample_data/*.xlsx
+
+# Scripts temporales de tareas previas
+actualizar_docx.py
+convertir_a_rdata_ambos.R
+convertir_bibliometrix.R
+generar_ambos_bibliometrix.py
+generar_parte7_definitiva.py
+generar_parte7_limpia.py
+inspeccionar_docx.py
+preparar_bibliometrix.py
+test_biblio.R
+verificar_biblioshiny.R
+
